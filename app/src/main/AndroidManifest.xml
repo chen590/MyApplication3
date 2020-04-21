@@ -10,16 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        <activity android:name=".homeworkActivity1" />
+        <activity android:name=".HomeworkActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".homeworkActivity1" />
         <activity android:name=".homeworkActivity2" />
         <activity android:name=".homeworkActivity3" />
-        <activity android:name=".homeworkActivity4"></activity>
+        <activity android:name=".homeworkActivity4" />
+        <activity android:name=".homeworkActivity5" />
+
+
+        </activity>
     </application>
 
 </manifest>
